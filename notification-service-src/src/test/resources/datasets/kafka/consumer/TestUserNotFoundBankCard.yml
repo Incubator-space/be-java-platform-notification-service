@@ -1,0 +1,8 @@
+notifications:
+users:
+  - id: d95d32bf-7a0f-4b29-8abd-195f3b358da7
+    first_name: Петр
+    last_name: Петров
+    is_archived: false
+    email: student@student.ru
+    created: '2023-07-11 11:42:25.085893'

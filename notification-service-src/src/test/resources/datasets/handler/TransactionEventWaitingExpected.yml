@@ -1,0 +1,9 @@
+notifications:
+  - id: 6fb8740b-5f41-42b1-b7a3-d2bad5bb227a
+    type: PUSH
+    action: placeholder_action
+    status: WAIT
+    target_id: a9db41d9-dbb0-4c76-925c-030063b1c6e5
+    title: Платеж в обработке
+    message: Петр Петров, платеж на сумму 12345,67 р ожидает вашего подтверждения.
+    created: '2024-01-24 08:31:45.835847'

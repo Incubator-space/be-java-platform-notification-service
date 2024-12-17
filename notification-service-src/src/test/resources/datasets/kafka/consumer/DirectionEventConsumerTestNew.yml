@@ -1,0 +1,8 @@
+news:
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74180
+    image_id: 92fdf5b1-3721-485d-b9b8-da0726a74180
+    status: NEW
+    title: Доступно новое направление
+    message: Доступно новое направление для изучения
+    target_role: ALL
+    created: '2023-07-11 11:43:25.085893'

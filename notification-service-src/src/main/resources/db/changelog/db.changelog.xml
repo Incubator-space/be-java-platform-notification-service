@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <preConditions>
+        <dbms type="postgresql"/>
+    </preConditions>
+    <include file="/db/changelog/changeset/2023/06/20-06-notifications.xml"/>
+    <include file="/db/changelog/changeset/2023/06/21-10-emails.xml"/>
+    <include file="/db/changelog/changeset/2023/06/09-10-users.xml"/>
+    <include file="/db/changelog/changeset/2023/08/03-08-notification-target.xml"/>
+    <include file="db/changelog/changeset/2023/08/21-08-notification-message.xml"/>
+    <include file="db/changelog/changeset/2023/08/25-10-notification-image_id.xml"/>
+    <include file="db/changelog/changeset/2023/12/05-12-news.xml"/>
+    <include file="db/changelog/changeset/2023/12/09-12-notifications-target_id.xml"/>
+    <include file="db/changelog/changeset/2023/12/11-12-notifications-fkUserId.xml"/>
+</databaseChangeLog>

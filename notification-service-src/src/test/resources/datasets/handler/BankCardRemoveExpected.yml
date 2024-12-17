@@ -1,0 +1,16 @@
+notifications:
+  - id: 6fb8740b-5f41-42b1-b7a3-d2bad5bb227a
+    type: PUSH
+    action: placeholder_action
+    status: WAIT
+    target_id: a9db41d9-dbb0-4c76-925c-030063b1c6e5
+    title: Банковская карта удалена
+    message: Петр Петров, из вашего аккаунта успешно удалена банковская карта Мир
+    created: '2024-01-24 08:31:45.835847'
+users:
+  - id: a9db41d9-dbb0-4c76-925c-030063b1c6e5
+    first_name: Петр
+    last_name: Петров
+    is_archived: false
+    email: student@student.ru
+    created: '2023-07-11 11:42:25.085893'

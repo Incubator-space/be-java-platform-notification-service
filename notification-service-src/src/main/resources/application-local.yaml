@@ -1,0 +1,87 @@
+server:
+  port: 9494
+
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_HOST:localhost:9092}
+    consumer:
+      group-id: notification-group
+      auto-offset-reset: earliest
+      auto-commit-interval: 100ms
+      session-timeout: 15000ms
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        value.deserializer.inner: org.springframework.kafka.support.serializer.JsonDeserializer
+        spring.json.trusted.packages: "*"
+        specific.avro.reader: true
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    topic:
+      user-events: user-events
+      review-events: review-events
+      notification-events: notification-events
+      achievement-events: achievement-events
+      direction-events: direction-events
+      task-comment-events: task-comment-events
+      bank-card-events: bank-card-event
+      transaction-events: transaction-event
+
+  application:
+    name: notification-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:${DATABASE_URL:postgresql://localhost:5432/postgres}
+    username: ${DATABASE_USERNAME:postgres}
+    password: ${DATABASE_PASSWORD:postgres}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+  shedlock:
+    enabled: true
+    provider: postgresql
+    table-name: shedlock
+    update-news-status:
+      name: updateNewsStatus
+      lock-at-most-for: PT10M
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog.xml
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:  http://localhost:9191/realms/ITM-Platform
+
+scheduler:
+  change-wait-notifications-to-sent-cron: "0 * * * * *"
+  change-wait-news-status: "0 */10 * * * *"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+keycloak:
+  realm: ITM-Platform
+  auth-server-url: http://localhost:9191/
+  credentials:
+    secret: ${SECRET:iKCn5XUcz4svGywmi5ISibGN0pjoXqM8}
+
+springdoc:
+  swagger-ui:
+    config-url: /v3/api-docs/swagger-config
+    url: /v3/api-docs

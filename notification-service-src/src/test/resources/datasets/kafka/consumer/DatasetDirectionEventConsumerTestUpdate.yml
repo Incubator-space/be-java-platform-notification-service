@@ -1,0 +1,8 @@
+news:
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    image_id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    status: NEW
+    title: Обновление направления
+    message: В направлении Java появились новые темы для изучения
+    target_role: ALL
+    created: '2023-07-11 11:43:25.085893'

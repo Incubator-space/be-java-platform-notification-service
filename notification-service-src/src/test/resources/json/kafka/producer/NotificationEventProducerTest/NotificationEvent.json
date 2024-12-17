@@ -1,0 +1,9 @@
+{
+  "id": "497f6eca-6276-4993-bfeb-53cbbbba6f08",
+  "type": "PUSH",
+  "action": "test action",
+  "status": "ERROR",
+  "target": "97b608a9-302e-4387-a5f4-fd35969cdc21",
+  "title": "test title",
+  "message": "test message"
+}

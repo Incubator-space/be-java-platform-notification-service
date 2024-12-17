@@ -1,0 +1,98 @@
+notifications:
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    type: EMAIL
+    action: action2
+    status: SENT
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 2
+    message: Message 2
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: b51a0837-8f4f-4644-8946-5c72d845430c
+    type: EMAIL
+    action: action1
+    status: VIEWED
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 1
+    message: Message 1
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: fd291a72-a122-4fc8-bf38-7f830605610f
+    type: EMAIL
+    action: action8
+    status: VIEWED
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 8
+    message: Message 8
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 9ff4baac-4ea0-40da-a4ad-bbcd660ce6ed
+    type: EMAIL
+    action: action3
+    status: VIEWED
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 3
+    message: Message 3
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 0304fde3-2c92-4e5f-a7b2-5ba15e3e4972
+    type: PUSH
+    action: action4
+    status: SENT
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 4
+    message: Message 4
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 08a00552-abe0-4421-a365-6a65de2554a9
+    type: PUSH
+    action: action5
+    status: WAIT
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 5
+    message: Message 5
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 4c584e32-40d7-470c-87e5-5f45fe9c6124
+    type: PUSH
+    action: action6
+    status: VIEWED
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 6
+    message: Message 6
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 55f197ba-9bd6-4042-ac64-3ca98079af3e
+    type: PUSH
+    action: action9
+    status: WAIT
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 9
+    message: Message 9
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: ddbba07f-b9dc-444f-946f-39464cb36a76
+    type: PUSH
+    action: action10
+    status: VIEWED
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 10
+    message: Message 10
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: c8ac3e38-664a-41b7-af3c-a94020775ee1
+    type: PUSH
+    action: action7
+    status: WAIT
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 7
+    message: Message 7
+    created: '2023-07-11 11:42:25.085893'
+
+users:
+  - id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    first_name: user
+    last_name: user
+    is_archived: false
+    email: user@user
+    created: '2023-07-11 11:42:25.085893'

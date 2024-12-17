@@ -1,0 +1,9 @@
+news:
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    image_id: 92fdf5b1-3721-485d-b9b8-da0726a74175
+    status: NEW
+    target_role: STUDENT
+    title: "Passed"
+    message: "Passed"
+    created: '2023-07-11 11:42:25.085893'
+    updated: '2023-07-11 11:45:25.085893'

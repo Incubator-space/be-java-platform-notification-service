@@ -1,0 +1,9 @@
+notifications:
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    type: PUSH
+    action: placeholder_action
+    status: WAIT
+    target_id: f47ac10b-58cc-4372-a567-0e02b2c3d479
+    title: Выплата в обработке
+    message: Иван Иванович, выплата на сумму 10 р обрабатывается платежным шлюзом.
+    created: '2023-07-11 11:43:25.085893'

@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "name": "ReviewEvent",
+  "namespace": "com.itm.space",
+  "fields": [
+    {"name": "id", "type": {"type": "string", "logicalType": "uuid"}},
+    {"name": "mentorId", "type": {"type": "string", "logicalType": "uuid"}},
+    {"name": "studentId", "type": {"type": "string", "logicalType": "uuid"}},
+    {"name": "topicId", "type": {"type": "string", "logicalType": "uuid"}},
+    {"name": "status", "type": {"name": "ReviewEventStatus",
+                                "type": "enum",
+                                "namespace": "data",
+                                "symbols": ["START_WAITING", "IN_PROGRESS", "COMPLETED", "CANCELED"]
+    }
+    },
+    {"name": "startDate", "type": {"type": "long", "logicalType": "timestamp-millis"}},
+    {"name": "endDate", "type": {"type": "long", "logicalType": "timestamp-millis"}},
+    {"name": "isRemind", "type": "boolean"}
+  ]
+}

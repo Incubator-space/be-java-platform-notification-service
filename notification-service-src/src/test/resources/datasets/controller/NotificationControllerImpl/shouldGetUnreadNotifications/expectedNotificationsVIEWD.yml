@@ -1,0 +1,18 @@
+notifications:
+  - id: 413beec7-17aa-45d3-8a40-e747a98d0777
+    type: EMAIL
+    action: action1
+    image_id: bea0fa9f-76a5-47d7-8375-e35f68658e72
+    status: VIEWED
+    target_id: 413beec7-17aa-45d3-8a40-e747a98d0777
+    title: Notification 1
+    message: Message 1
+    created: '2023-07-11 11:42:25.085893'
+
+users:
+  - id: 413beec7-17aa-45d3-8a40-e747a98d0777
+    first_name: student
+    last_name: student
+    is_archived: false
+    email: student@student.ru
+    created: '2023-07-11 11:42:25.085893'

@@ -1,0 +1,18 @@
+notifications:
+  - id: b51a0837-8f4f-4644-8946-5c72d845430c
+    type: EMAIL
+    action: action1
+    image_id: bea0fa9f-76a5-47d7-8375-e35f68658e72
+    status: SENT
+    target_id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    title: Notification 1
+    message: Message 1
+    created: '2023-07-11 11:42:25.085893'
+
+users:
+  - id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    first_name: user
+    last_name: user
+    is_archived: false
+    email: user@user
+    created: '2023-07-11 11:42:25.085893'

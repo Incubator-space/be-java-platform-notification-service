@@ -1,0 +1,19 @@
+notifications:
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    type: PUSH
+    action: placeholder_action
+    image_id: b8ceb474-60fb-11ee-8c99-0242ac120002
+    status: WAIT
+    target_id: f47ac10b-58cc-4372-a567-0e02b2c3d479
+    title: Платеж ожидает подтверждения
+    message:  Иван Иванов, платеж на сумму 10 р ожидает вашего подтверждения
+    created: '2023-07-11 11:43:25.085893'
+    updated: null
+users:
+  - id: f47ac10b-58cc-4372-a567-0e02b2c3d479
+    email: student@student.ru
+    first_name: Иван
+    last_name: Иванов
+    is_archived: false
+    created: '2023-07-11 11:42:25.085893'
+    updated: null

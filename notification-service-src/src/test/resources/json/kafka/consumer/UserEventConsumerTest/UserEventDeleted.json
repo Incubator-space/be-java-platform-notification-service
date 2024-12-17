@@ -1,0 +1,15 @@
+{
+  "id": "97b608a9-302e-4387-a5f4-fd35969cdc21",
+  "type": "DELETED",
+  "roles": [
+    "STUDENT"
+  ],
+  "groups": [
+    "May-2"
+  ],
+  "directionId": "97b608a9-302e-4387-a5f4-fd35969cdc21",
+  "firstName": "test",
+  "lastName": "test",
+  "email": "test2@example.ru",
+  "isArchived": false
+}

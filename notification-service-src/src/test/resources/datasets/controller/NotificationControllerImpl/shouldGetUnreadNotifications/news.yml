@@ -1,0 +1,40 @@
+news:
+  - id: b51a0837-8f4f-4644-8946-5c72d845430c
+    image_id: bea0fa9f-76a5-47d7-8375-e35f68658e72
+    status: NEW
+    target_role: ALL
+    title: News 1
+    message: Message 1
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 92fdf5b1-3721-485d-b9b8-da0726a74179
+    image_id: 62996f04-1b4a-4b75-8d17-119f823b8df5
+    status: NEW
+    target_role: STUDENT
+    title: News 2
+    message: Message 2
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 9ff4baac-4ea0-40da-a4ad-bbcd660ce6ed
+    image_id: 9f05f320-e08d-4182-bb99-aecbd9b9a954
+    status: NEW
+    target_role: MENTOR
+    title: News 3
+    message: Message 3
+    created: '2023-07-11 11:42:25.085893'
+
+  - id: 08a00552-abe0-4421-a365-6a65de2554a9
+    image_id: d2fc72f5-72b1-4e77-a144-aa067c5f38c1
+    status: OLD
+    target_role: STUDENT
+    title: News 4
+    message: Message 4
+    created: '2023-07-11 11:42:25.085893'
+
+users:
+  - id: d55d32bf-7a0f-4b29-8abd-195f3b358da7
+    first_name: user
+    last_name: user
+    is_archived: false
+    email: user@user
+    created: '2023-07-11 11:42:25.085893'

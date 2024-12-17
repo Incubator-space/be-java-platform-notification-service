@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "user_change_event",
+  "namespace": "com.itm.space",
+  "fields": [
+    {"name": "id", "type": {"type": "string", "logicalType": "uuid"}},
+    {"name": "type", "type": {"type": "enum", "name": "event_type", "symbols": ["CREATED", "UPDATED", "DELETED"]}},
+    {"name": "firstName", "type": "string"},
+    {"name": "lastName", "type": "string"},
+    {"name": "email", "type": "string"},
+    {"name": "isArchived", "type": "boolean"}
+  ]
+}
